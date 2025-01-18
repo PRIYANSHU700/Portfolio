@@ -10,7 +10,7 @@ const Homesection3 = () => {
   return (
     <div className={styles.section3outer}>
         <h1>My Top Projects</h1>
-        <Card1_left cimg={projectimg1} cname="Twitter Clone" cdescription="I built this project using MERN Stack." cvisit="https://twitter-clone-s1kc.onrender.com" ccode="https://github.com/PRIYANSHU700/twitter-clone.git"/>
+        <Card1_left cimg={projectimg1} cname="Twitter Clone" cdescription="I built this project using MERN Stack." cvisit="https://twitter-clone-ohom.vercel.app/" ccode="https://github.com/PRIYANSHU700/twitter-clone.git"/>
 
         <Card2_right cimg={projectimg3} cname="Project 2" cdescription="Work in progress" cvisit="link" ccode="gitcode"/> 
 
