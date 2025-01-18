@@ -1,0 +1,152 @@
+.navouter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: linear-gradient(135deg, #0070f3, #00c6ff); /* Gradient background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: background 0.3s ease;
+  }
+  
+  .navouter:hover {
+    background: linear-gradient(135deg, #00c6ff, #0070f3); /* Hover effect */
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sign {
+    cursor: pointer;
+  }
+  
+  .nav_toggler {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .nav_toggler.navactive .bar:nth-child(1) {
+    transform: rotate(45deg) translateY(7px);
+  }
+  
+  .nav_toggler.navactive .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .nav_toggler.navactive .bar:nth-child(3) {
+    transform: rotate(-45deg) translateY(-7px);
+  }
+  
+  .right {
+    display: flex;
+    gap: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .right button {
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .right button:hover {
+    background-color: #fff;
+    color: #0070f3;
+    border: 2px solid #0070f3;
+    transform: scale(1.05);
+  }
+  
+  .right1 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    padding: 10px 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .right1.active {
+    display: flex;
+    opacity: 1;
+  }
+  
+  .right1 button {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .right1 button:hover {
+    background-color: #0070f3;
+    color: #fff;
+  }
+  
+  .pageactive {
+    background-color: #fff;
+    color: #0070f3;
+    border-radius: 5px;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .right {
+      display: none;
+    }
+  
+    .nav_toggler {
+      display: flex;
+    }
+  
+    .right1 {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      padding: 10px 0;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+  
+    .right1.active {
+      display: flex;
+      opacity: 1;
+    }
+  }
+  

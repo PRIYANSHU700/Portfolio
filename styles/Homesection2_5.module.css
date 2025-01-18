@@ -1,0 +1,144 @@
+.section2_5outer {
+    padding: 2rem;
+    background-color: #f0f8ff;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  .section2_5inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .timelineItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .iconWrapper {
+    font-size: 2rem;
+    color: #0070f3;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s;
+  }
+  
+  .iconWrapper:hover {
+    transform: scale(1.2);
+  }
+  
+  .timelinePeriod {
+    font-size: 1.2rem;
+    color: #0070f3;
+    font-weight: bold;
+  }
+  
+  .timelineConnector {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+  
+  .circle {
+    width: 15px;
+    height: 15px;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .circle:hover {
+    transform: scale(1.2);
+    background-color: #005bb5;
+  }
+  
+  .hrline {
+    width: 100px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
+  
+  .vrline {
+    width: 2px;
+    height: 50px;
+    background-color: #ccc;
+  }
+  
+  .timelineDescription {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    max-width: 600px;
+    margin: 0.5rem 0;
+    transition: color 0.3s;
+  }
+  
+  .timelineDescription:hover {
+    color: #0070f3;
+  }
+  
+  .finalMessage {
+    font-size: 1.2rem;
+    color: #444;
+    margin-top: 2rem;
+    font-style: italic;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hrline {
+      width: 50px;
+    }
+  
+    .timelineDescription {
+      font-size: 0.9rem;
+    }
+  
+    .finalMessage {
+      font-size: 1rem;
+    }
+  }
+  
