@@ -16,7 +16,7 @@ const Homesection2 = () => {
         <p className={styles.description}>
           I love building new webpages with innovative functionalities. I have 
           experience with React.js, Next.js, Sanity, SQL, MySQL, RapidAPI, and MongoDB. 
-          I have completed a training of 4 weeks as an Application Developer at ThinkNext Techno and 
+          I have completed a training of 4 weeks as an Application Developer at ThinkNext Technologies and 
           served as a member of Training & Placement Cell in our college.<br />
           Always eager to collaborate, innovate, and solve real-world problems.
         </p>
