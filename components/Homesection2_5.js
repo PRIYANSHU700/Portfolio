@@ -19,7 +19,7 @@ const timelineData = [
   },
   {
     period: "2023 - till date",
-    description: "Member of Training & Placement Cell.",
+    description: "IT Co-ordinator at Training & Placement Cell.",
     icon: <FaUserGraduate />,
   },
   {
