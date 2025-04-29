@@ -24,7 +24,7 @@ const projects = () => {
 
                 <Card2_right cimg={projectimg2} cname="Youtube Clone" cdescription="I built this project using Rapid API" cvisit="link" ccode="https://github.com/PRIYANSHU700/Youtube-clone.git"/> 
 
-                <Card1_left cimg={projectimg3} cname="Project 3" cdescription="work in progress " cvisit="applink" ccode="gitlink"/> 
+                <Card1_left cimg={projectimg3} cname="Crop Yield Prediction System" cdescription="Developed a Crop Yield Prediction System using Random Forest and XGBoost, achieving 95.51% accuracy with XGBoost. Built a Streamlit interface enabling farmers to input data and receive real-time yield predictions for informed decision-making. " cvisit="https://crop-yield-prediction-system77.streamlit.app/" ccode="https://github.com/PRIYANSHU700/Crop-Yield-Prediction-System"/> 
 
                 <Card2_right cimg={projectimg5} cname="Game" cdescription="Work in progress" cvisit="applink" ccode="gitlink" />
 
