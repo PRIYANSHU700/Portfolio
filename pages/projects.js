@@ -22,7 +22,7 @@ const projects = () => {
                 <h1>My Projects</h1>
                 <Card1_left cimg={projectimg1} cname="Twitter Clone" cdescription="I built this project using MERN Stack." cvisit="https://twitter-clone-s1kc.onrender.com" ccode="https://github.com/PRIYANSHU700/twitter-clone.git"/>
 
-                <Card2_right cimg={projectimg2} cname="Youtube Clone" cdescription="I built this project using Rapid API" cvisit="link" ccode="https://github.com/PRIYANSHU700/Youtube-clone.git"/> 
+                <Card2_right cimg={projectimg2} cname="Youtube Clone" cdescription="I built this project using Rapid API" cvisit="https://youtube-clone77.vercel.app/" ccode="https://github.com/PRIYANSHU700/YoutubeClone77"/> 
 
                 <Card1_left cimg={projectimg3} cname="Crop Yield Prediction System" cdescription="Developed a Crop Yield Prediction System using Random Forest and XGBoost, achieving 95.51% accuracy with XGBoost. Built a Streamlit interface enabling farmers to input data and receive real-time yield predictions for informed decision-making. " cvisit="https://crop-yield-prediction-system77.streamlit.app/" ccode="https://github.com/PRIYANSHU700/Crop-Yield-Prediction-System"/> 
 
