@@ -100,7 +100,7 @@ const about = () => {
           className={styles.button}
         >
           <a
-            href="https://drive.google.com/file/d/1rhYxe01e3Cbe4bgfe6e_EFoxHbK5uU9G/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xMNXLLlnjsl9-xvkmMqcJcnRz7poj2rc/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
