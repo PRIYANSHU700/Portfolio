@@ -5,7 +5,14 @@
     padding: 2rem;
     background-color: #f0f8ff;
   }
-  
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap; 
+}
+
   .left {
     flex: 1;
     padding-right: 2rem;
