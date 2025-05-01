@@ -47,8 +47,8 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navbar (appears when nav is active) */}
-      {navActive && (
-        <div className={styles.right1}>
+      <div className={`${styles.right1} ${navActive ? styles.active : ''}`}>
+
           <Link href='/'>
             <button className={router.pathname === '/' ? styles.pageactive : ''}>Home</button>
           </Link>
