@@ -25,7 +25,7 @@ const Homesection1 = () => {
           A 21-year-old tech enthusiast, I am a MERN Stack Developer and B.Tech IT 3rd year student with a deep interest in Web Development and Data Science.
         </p>
         
-        <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Know More <span className={styles.pointer}>👉</span></button>
+        <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Know More <span className={styles.pointer}>👈</span></button>
 
         <div className={styles.socialLinks}>
           <a href="https://www.linkedin.com/in/priyanshu-478953257/" target="_blank" rel="noopener noreferrer">
