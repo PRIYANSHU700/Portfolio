@@ -26,7 +26,7 @@ const Homesection1 = () => {
         </p>
         
         <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Know More <span className={styles.pointer}>👈</span></button>
-        <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Download CV <span className={styles.pointer}></span></button>
+        <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Download CV <span className={styles.pointer}>👈</span></button>
 
 
         <div className={styles.socialLinks}>
