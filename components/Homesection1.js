@@ -27,20 +27,6 @@ const Homesection1 = () => {
         
         <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Know More <span className={styles.pointer}>👈</span></button>
 
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className={styles.button}
-        >
-          <a
-            href="https://docs.google.com/document/d/1ZDMjKy_5bn8PoY-crZL_LbXv18Yj2KUX/edit?usp=sharing&ouid=110881023256295559243&rtpof=true&sd=true"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download Resume
-          </a>
-        </motion.button>
-
         <div className={styles.socialLinks}>
           <a href="https://www.linkedin.com/in/priyanshu-478953257/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className={styles.icon} />
