@@ -6,6 +6,17 @@
     justify-content: center;
 }
 
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+
 .section3outer h1{
     text-align: center;
     font-family: 'Poppins','sans-serif';
