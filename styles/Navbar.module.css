@@ -131,7 +131,8 @@
     }
   
     .right1 {
-      display: flex;
+      max-height: 0;
+      overflow: hidden;
       flex-direction: column;
       position: absolute;
       top: 70px;
@@ -139,13 +140,15 @@
       background-color: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       width: 100%;
-      padding: 10px 0;
+      padding: 0;
       opacity: 0;
-      transition: opacity 0.3s ease;
+      transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.3s ease;
+      z-index: 1;
     }
-  
+
     .right1.active {
-      display: flex;
+      max-height: 500px; /* large enough to show all content */
+      padding: 10px 0;
       opacity: 1;
     }
   }
