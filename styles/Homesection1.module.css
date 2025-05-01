@@ -6,12 +6,6 @@
     background-color: #f0f8ff;
   }
 
-.buttonGroup {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  
-}
 
   .left {
     flex: 1;
