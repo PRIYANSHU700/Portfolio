@@ -26,6 +26,8 @@ const Homesection1 = () => {
         </p>
         
         <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Know More <span className={styles.pointer}>👈</span></button>
+        <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Download CV <span className={styles.pointer}></span></button>
+
 
         <div className={styles.socialLinks}>
           <a href="https://www.linkedin.com/in/priyanshu-478953257/" target="_blank" rel="noopener noreferrer">
