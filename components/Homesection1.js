@@ -26,9 +26,9 @@ const Homesection1 = () => {
         </p>
         
         <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}>  Know More <span className={styles.pointer}>👈</span></button>
-        <Button variant="outline" size="lg" icon={<Download size={18} />} onClick={() => window.open('https://drive.google.com/file/d/1jyNUuUgx0Q7ouAPOqVqUyBzvGfu1G3jg/view?usp=sharing', '_blank')}>
+        <button variant="outline" size="lg" icon={<Download size={18} />} onClick={() => window.open('https://drive.google.com/file/d/1jyNUuUgx0Q7ouAPOqVqUyBzvGfu1G3jg/view?usp=sharing', '_blank')}>
                   Download CV
-        </Button>
+        </button>
 
         <div className={styles.socialLinks}>
           <a href="https://www.linkedin.com/in/priyanshu-478953257/" target="_blank" rel="noopener noreferrer">
