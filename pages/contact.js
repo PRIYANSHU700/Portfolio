@@ -33,14 +33,14 @@ const contact = () => {
               <input 
                 type="text" 
                 placeholder="Your Name" 
-                name="user_name" 
+                name="name" 
                 required 
                 className={styles.input}
               />
               <input 
                 type="email" 
                 placeholder="Your Email" 
-                name="user_email" 
+                name="email" 
                 required 
                 className={styles.input}
               />
