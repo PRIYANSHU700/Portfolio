@@ -25,7 +25,7 @@ const Homesection1 = () => {
           A 21-year-old tech enthusiast, I am a MERN Stack Developer and B.Tech IT 3rd year student with a deep interest in Web Development and Data Science.
         </p>
         
-       <div className={styles.buttonGroup}> <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}> Know More <span className={styles.pointer}>👈</span> </button> <button onClick={() => window.open("https://drive.google.com/file/d/1dhc-U6exJgyMUFSRM3b912NERuQZwrPq/view?usp=sharing", '_blank')} className={styles.ctaButton}> Get My CV <span className={styles.pointer}>👈</span></button></div>
+       <div className={styles.buttonGroup}> <button onClick={() => window.location.href = '/about'} className={styles.ctaButton}> Know More <span className={styles.pointer}>👈</span> </button> <button onClick={() => window.open("https://drive.google.com/file/d/1hJZG9x5_q87ImJok7FGt0rtFoYBKWCKS/view?usp=sharing", '_blank')} className={styles.ctaButton}> Get My CV <span className={styles.pointer}>👈</span></button></div>
 
 
 
